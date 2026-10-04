@@ -26,11 +26,6 @@ rtree
 # foronoi>=1.0.3
 shapely>=2.0
 
-# ###############################
-# OR-TOOLS package is now optional
-ortools>=7.0
-# ###############################
-
 lxml
 svg.path>=4.0
 svglib
