@@ -47,7 +47,7 @@ class CNCJobObject(FlatCAMObj, CNCjob):
 
     def __init__(self, name, app, units="in", kind="generic", z_move=0.1,
                  feedrate=3.0, feedrate_rapid=3.0, z_cut=-0.002, tooldia=0.0,
-                 spindlespeed=None):
+                 spindlespeed=3000):
 
         self.app = app
         self.app.log.debug("Creating CNCJob object...")

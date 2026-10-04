@@ -55,5 +55,5 @@ svgtrace
 # To detect OS dark mode
 darkdetect
 
-gdal
+gdal==3.8.4
 rasterio
