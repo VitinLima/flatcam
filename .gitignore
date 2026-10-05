@@ -2,8 +2,9 @@
 .idea/
 tests/tmp/
 build/
-/venv/
-/venv/
+venv/
+.venv/
+launch.sh
 
 # General for macOS
 .DS_Store
