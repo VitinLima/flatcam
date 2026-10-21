@@ -3,7 +3,7 @@
 # System packages
 
 sudo apt install \
-	libfreetype6 \
+#	libfreetype6 \
 	libgeos-dev \
 	libgdal-dev \
 	python3-dev \
@@ -12,10 +12,10 @@ sudo apt install \
 
 # Python packages
 
-#rm -rf ./.venv
-#python3 -m venv ./.venv
-#source ./.venv/bin/activate
-#pip install -r ./requirements.txt
+rm -rf ./.venv
+python3 -m venv ./.venv
+source ./.venv/bin/activate
+pip install -r ./requirements.txt
 
 touch launch.sh
 echo "source $(pwd)/.venv/bin/activate" > launch.sh
